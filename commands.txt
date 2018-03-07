@@ -14,3 +14,6 @@ git checkout -b allcommands
 git add commands.txt
 git commit -m "add commands.txt"
 git push origin allcommands
+git rebase master
+git checkout master
+git merge allcommands
