@@ -1,0 +1,13 @@
+cd lab1
+git init
+git add --all
+git commit -m "Initial commit"
+git commit -a -m "modify l1.txt"
+git remote add origin https://github.com/damjan-dabovski/lab.git
+git push origin master
+git reset --hard f3a4bf2
+git add --all
+git checkout master
+git merge logging
+git push origin master
+git checkout -b allcommands
